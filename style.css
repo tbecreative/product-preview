@@ -1,0 +1,31 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 490px;
+    width: 700px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.image img {
+    width: 350px;
+    object-fit: cover;
+}
+
+.info {
+    width: 400px;
+    height: auto;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+}
